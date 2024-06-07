@@ -1,0 +1,30 @@
+<!-- GABRIEL CAMARGO DE SOUZA BORGES -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="atividade5.css">
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form id="formContato" onsubmit="return validarFormulario()">
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="atividade5.js"></script>
+</body>
+</html>

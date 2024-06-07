@@ -1,0 +1,41 @@
+/* GABRIEL CAMARGO DE SOUZA BORGES */
+.botões-filtro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botões-filtro button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27935d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botões-filtro button:hover {
+    background-color: #1e7d48;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria .Bemvindo,
+.galeria .Cores,
+.galeria .Fumaça {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}

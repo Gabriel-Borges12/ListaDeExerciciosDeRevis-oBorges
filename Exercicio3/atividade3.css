@@ -1,0 +1,73 @@
+/* <!-- GABRIEL CAMARGO DE SOUZA BORGES --> */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+img.centralizada {
+    border: 5px solid #51b888;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    transition: border-color 0.3s ease;
+}
+
+img.centralizada:hover {
+    border-color: #00ff88;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #51b888;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00ff88;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #4fae73;
+}
+
+.destacado {
+    background-color: #2d975f;
+    color: white;
+}

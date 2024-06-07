@@ -1,0 +1,49 @@
+/* // GABRIEL CAMARGO DE SOUZA BORGES */
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: #21ab70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2b9657;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #22be7d;
+}
+
+.animar {
+    animation: crescer 0.5s ease;
+}
+
+@keyframes crescer {
+    0% {
+        transform: scale(1);
+        background-color: #2ba85f;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: #28a745;
+    }
+    100% {
+        transform: scale(1);
+        background-color: #148048;
+    }
+}
